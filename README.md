@@ -1,1 +1,1 @@
-# angular-bower-grunt-template
+# AngularJS, Bower, Grunt simple template
