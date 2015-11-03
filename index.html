@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simple Web template</title>
+        <meta name="description" content="Simple template for the Web">
+        <link href="css/build/main.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body ng-app="main">
+        <div>
+            <header>
+                <nav class="container main-nav">
+                    <ul>
+                        <li><a href="#/home">Home</a></li>
+                        <li><a href="#/second">Second</a></li>
+                        <li><a href="#/third">Third</a></li>
+                    </ul>
+                </div>
+            </header>
+            
+            <main>
+                <div class="container" ng-view></div>
+            </main>
+            
+            <footer>
+                <div class="container">
+                    <p>Simple template for the Web with <a href="https://angularjs.org/" target="_blank">AngularJS</a>, <a href="http://bower.io/" target="_blank">Bower</a>, <a href="http://gruntjs.com/" target="_blank">Grunt</a>, and <a href="http://sass-lang.com/" target="_blank">SASS</a>.</p>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="js/build/template-app.js"></script>
+    </body>
+</html>
